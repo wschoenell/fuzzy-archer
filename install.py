@@ -45,11 +45,9 @@ class BootstrapInstaller(setup.ExtensionInstaller):
                         'HTML_ROOT':'Bootstrap'}}},
 
             files=[('skins/Bootstrap',
-                    ['skins/Bootstrap/about.html.tmpl',
-                     'skins/Bootstrap/history.html.tmpl',
+                    ['skins/Bootstrap/history.html.tmpl',
                      'skins/Bootstrap/index.html.tmpl',
                      'skins/Bootstrap/month.html.tmpl',
-                     'skins/Bootstrap/news.html.tmpl',
                      'skins/Bootstrap/stats.html.tmpl',
                      'skins/Bootstrap/week.html.tmpl',
                      'skins/Bootstrap/year.html.tmpl',
